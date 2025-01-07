@@ -32,6 +32,6 @@ func TestGetAPIKey_NoAuthHeader(t *testing.T) {
 	}
 }
 
-func TestFail(t *testing.T) {
-	t.Fail()
-}
+// func TestFail(t *testing.T) {
+// 	t.Fail()
+// }
