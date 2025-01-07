@@ -31,3 +31,7 @@ func TestGetAPIKey_NoAuthHeader(t *testing.T) {
 		t.Fatalf("expected error '%v', got: %v", ErrNoAuthHeaderIncluded, err)
 	}
 }
+
+func TestFail(t *testing.T) {
+	t.Fail()
+}
